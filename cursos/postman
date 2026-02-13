@@ -1,0 +1,4 @@
+Para teste de API no postman via Token
+    1 - Selecionar Headers
+    2 - Key = Authorization
+    3 - Value = Token 6a893d034571fd76abf6101c24bf4914feaac90a

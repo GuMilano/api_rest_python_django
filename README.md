@@ -9,9 +9,9 @@ Projeto de estudo para criação e evolução de uma **API REST** usando **Pytho
 - **Python**
 - **Django**
 - **Django REST Framework (DRF)**
-- **requests** (testes/consumo da API via Python) :contentReference[oaicite:1]{index=1}
-- **JSONPath** (validação/extração de dados em respostas JSON durante testes) :contentReference[oaicite:2]{index=2}
-- **PyTest** (testes automatizados) :contentReference[oaicite:3]{index=3}
+- **requests** (testes/consumo da API via Python)
+- **JSONPath** (validação/extração de dados em respostas JSON durante testes) 
+- **PyTest** (testes automatizados) 
 - **Git** (versionamento)
 
 ---
@@ -19,42 +19,42 @@ Projeto de estudo para criação e evolução de uma **API REST** usando **Pytho
 ## 🎯 Conteúdos e Conceitos Praticados
 
 ### 1) Fundamentos de APIs REST
-- O que é uma **API** e o que é **REST** :contentReference[oaicite:4]{index=4}
-- **Endpoints**: organização de rotas e recursos :contentReference[oaicite:5]{index=5}
-- **Requests** e **Responses**: payloads, headers, status codes :contentReference[oaicite:6]{index=6}
-- **Segurança em APIs REST** (princípios e cuidados básicos) :contentReference[oaicite:7]{index=7}
+- O que é uma **API** e o que é **REST** 
+- **Endpoints**: organização de rotas e recursos 
+- **Requests** e **Responses**: payloads, headers, status codes 
+- **Segurança em APIs REST** (princípios e cuidados básicos) 
 
 ### 2) DRF — Básico
-- Instalação e configurações iniciais do DRF :contentReference[oaicite:8]{index=8}
-- **ModelSerializers** para serialização e validação :contentReference[oaicite:9]{index=9}
+- Instalação e configurações iniciais do DRF 
+- **ModelSerializers** para serialização e validação 
 - **APIView** para endpoints com:
   - **GET**
-  - **POST** :contentReference[oaicite:10]{index=10}
+  - **POST** 
 
 ### 3) DRF — Intermediário
-- Construção de **CRUD genérico** :contentReference[oaicite:11]{index=11}
-- Sobrescrita/customização de métodos genéricos :contentReference[oaicite:12]{index=12}
-- Uso de **ViewSets** e **Routers** :contentReference[oaicite:13]{index=13}
-- Customização de ViewSets :contentReference[oaicite:14]{index=14}
-- **Relacionamentos** (ex.: ForeignKey / relações entre recursos) :contentReference[oaicite:15]{index=15}
-- **Paginação** de resultados :contentReference[oaicite:16]{index=16}
+- Construção de **CRUD genérico** 
+- Sobrescrita/customização de métodos genéricos 
+- Uso de **ViewSets** e **Routers**
+- Customização de ViewSets 
+- **Relacionamentos** (ex.: ForeignKey / relações entre recursos) 
+- **Paginação** de resultados 
 
 ### 4) DRF — Avançado
-- **Autenticação via Token** :contentReference[oaicite:17]{index=17}
-- **Permissões** (controle de acesso por endpoint/recurso) :contentReference[oaicite:18]{index=18}
-- **Throttling** (limitação de requisições/rate limit) :contentReference[oaicite:19]{index=19}
-- Customização de **validação** de dados :contentReference[oaicite:20]{index=20}
-- Customização de **serialização** (regras/campos/representação) :contentReference[oaicite:21]{index=21}
+- **Autenticação via Token** 
+- **Permissões** (controle de acesso por endpoint/recurso) 
+- **Throttling** (limitação de requisições/rate limit) 
+- Customização de **validação** de dados 
+- Customização de **serialização** (regras/campos/representação)
 
 ### 5) Testes de API
-- Testes de endpoints com **requests** :contentReference[oaicite:22]{index=22}
-- Uso de **JSONPath** para validar e extrair dados de respostas JSON :contentReference[oaicite:23]{index=23}
+- Testes de endpoints com **requests** 
+- Uso de **JSONPath** para validar e extrair dados de respostas JSON 
 - Testes para métodos:
   - **GET**
   - **POST**
   - **PUT**
-  - **DELETE** :contentReference[oaicite:24]{index=24}
-- Testes automatizados com **PyTest** :contentReference[oaicite:25]{index=25}
+  - **DELETE** 
+- Testes automatizados com **PyTest** 
 
 ---
 
@@ -63,7 +63,7 @@ Projeto de estudo para criação e evolução de uma **API REST** usando **Pytho
 - **GET**: listar/consultar recursos
 - **POST**: criar recursos
 - **PUT/PATCH**: atualizar recursos
-- **DELETE**: remover recursos :contentReference[oaicite:26]{index=26}
+- **DELETE**: remover recursos 
 
 ---
 

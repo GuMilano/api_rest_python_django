@@ -1,4 +1,4 @@
-# api_rest_python_django
+# API Rest Python Django
 
 Projeto de estudo para criação e evolução de uma **API REST** usando **Python**, **Django** e **Django REST Framework (DRF)**, cobrindo desde os fundamentos (endpoints, requests/responses e segurança) até recursos intermediários/avançados (CRUD genérico, ViewSets, paginação, autenticação por token, permissões, throttling e testes automatizados). :contentReference[oaicite:0]{index=0}
 
